@@ -1,0 +1,22 @@
+@import "../../variables.css";
+
+.options-list-wrapper {
+    background: var(--cards-bg);
+    border-radius: var(--border-radius);
+    overflow: auto;
+}
+
+.options-list-wrapper .ui-progress-spinner {
+    height: 40px;
+    width: 40px;
+}
+
+.options-list-end-of-list {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.infinite-options-list-is-loading-wrapper {
+    text-align: center;
+}

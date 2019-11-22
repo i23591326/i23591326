@@ -1,0 +1,16 @@
+@import "../../variables.css";
+
+.dropdown-origin-show-options-list {
+    margin: 0;
+    height: 42px;
+    padding: 6px 12px;
+    border: var(--cards-bg);
+}
+
+.dropdown-origin-input {
+    border: var(--cards-bg);
+}
+.dropdown-origin-input-group {
+    border: 1px solid var(--divider);
+    border-radius: 4px;
+}

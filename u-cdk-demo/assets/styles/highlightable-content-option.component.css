@@ -1,0 +1,21 @@
+@import "../../variables.css";
+
+.highlightable-content-option-active {
+    background-color: var(--primary-hover-bg);
+}
+
+.highlightable-content-option-selected {
+    background-color: var(--content-bg);
+}
+
+highlightable-content-option {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+}
+.highlightable-content-option-split-options:not(:last-child) {
+    border-bottom: 1px solid var(--divider);
+}
